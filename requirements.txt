@@ -1,0 +1,14 @@
+tensorflow>=2.9.0
+numpy
+opencv-python
+scikit-learn
+pillow
+matplotlib
+pyttsx3
+requests
+tqdm
+pandas
+aiohttp
+soundfile
+librosa
+tensorflow

@@ -1,0 +1,903 @@
+2025-09-26 17:59:30,994 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 115, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 58, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 19, in load_model_and_map
+    raise FileNotFoundError("Model not found. Train or place a model at models/best_model.h5")
+FileNotFoundError: Model not found. Train or place a model at models/best_model.h5
+2025-09-26 18:13:08,700 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 115, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 58, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 20, in load_model_and_map
+    model = load_model(MODEL_PATH)
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 118, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\h5py\_hl\files.py", line 564, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\h5py\_hl\files.py", line 238, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 56, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 57, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+OSError: Unable to synchronously open file (file signature not found)
+2025-09-26 18:22:46,378 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 115, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 58, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 20, in load_model_and_map
+    model = load_model(MODEL_PATH)
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 118, in load_model_from_hdf5
+    f = h5py.File(filepath, mode="r")
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\h5py\_hl\files.py", line 564, in __init__
+    fid = make_fid(name, mode, userblock_size, fapl, fcpl, swmr=swmr)
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\h5py\_hl\files.py", line 238, in make_fid
+    fid = h5f.open(name, flags, fapl=fapl)
+  File "h5py/_objects.pyx", line 56, in h5py._objects.with_phil.wrapper
+  File "h5py/_objects.pyx", line 57, in h5py._objects.with_phil.wrapper
+  File "h5py/h5f.pyx", line 102, in h5py.h5f.open
+OSError: Unable to synchronously open file (file signature not found)
+2025-09-26 18:26:35,242 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 115, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 58, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 19, in load_model_and_map
+    raise FileNotFoundError("Model not found. Train or place a model at models/best_model.h5")
+FileNotFoundError: Model not found. Train or place a model at models/best_model.h5
+2025-09-26 20:54:25,190 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 115, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 58, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 20, in load_model_and_map
+    model = load_model(MODEL_PATH)
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 558, in functional_from_config
+    process_layer(layer_data)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 521, in process_layer
+    layer = saving_utils.model_from_config(
+        layer_data, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 472, in deserialize_keras_object
+    (cls, cls_config) = class_and_config_for_serialized_keras_object(
+                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config, module_objects, custom_objects, printable_module_name
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 353, in class_and_config_for_serialized_keras_object
+    raise ValueError(
+    ...<5 lines>...
+    )
+ValueError: Unknown layer: 'TrueDivide'. Please ensure you are using a `keras.utils.custom_object_scope` and that this object is included in the scope. See https://www.tensorflow.org/guide/keras/save_and_serialize#registering_the_custom_object for details.
+2025-09-26 21:11:03,821 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 123, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 66, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 27, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 21:14:08,296 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 123, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 66, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 27, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 21:16:27,734 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 123, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 66, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 27, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 21:23:50,320 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 124, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 67, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 28, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 21:36:03,739 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 124, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 67, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 28, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 21:47:15,352 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 124, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 67, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 28, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 21:51:01,378 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 124, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 67, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 28, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 21:56:54,884 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 124, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 67, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 28, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 22:15:41,254 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 126, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 69, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 28, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 22:17:25,690 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 126, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 69, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 28, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 22:24:17,708 ERROR: Error in inference
+Traceback (most recent call last):
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 126, in <module>
+    cli_infer(args)
+    ~~~~~~~~~^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 69, in cli_infer
+    model, idx_to_label = load_model_and_map()
+                          ~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\infer.py", line 28, in load_model_and_map
+    model = load_model(MODEL_PATH, custom_objects={"TrueDivide": TrueDivide, "preprocessing_function": tf.keras.applications.mobilenet_v2.preprocess_input})
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 196, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 137, in load_model_from_hdf5
+    model = saving_utils.model_from_config(
+        model_config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 83, in model_from_config
+    return serialization.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        config,
+        ^^^^^^^
+    ...<2 lines>...
+        printable_module_name="layer",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\legacy\saving\serialization.py", line 488, in deserialize_keras_object
+    deserialized_obj = cls.from_config(
+        cls_config,
+    ...<3 lines>...
+        },
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\model.py", line 660, in from_config
+    return functional_from_config(
+        cls, config, custom_objects=custom_objects
+    )
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 577, in functional_from_config
+    process_node(layer, node_data)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\models\functional.py", line 507, in process_node
+    layer(*args, **kwargs)
+    ~~~~~^^^^^^^^^^^^^^^^^
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\utils\traceback_utils.py", line 122, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\keras\src\layers\layer.py", line 846, in __call__
+    raise ValueError(
+    ...<4 lines>...
+    )
+ValueError: Only input tensors may be passed as positional arguments. The following argument value should be passed as a keyword argument: 127.5 (of type <class 'float'>)
+2025-09-26 22:33:57,862 WARNING: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-26 22:47:48,265 WARNING: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-26 22:53:34,229 WARNING: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-27 13:18:06,559 WARNING: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-27 13:28:12,609 WARNING: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-27 13:39:05,344 WARNING: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-27 13:50:01,177 WARNING: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-27 13:59:13,871 WARNING: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-27 14:16:40,687 WARNING: You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-09-27 14:26:36,284 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-27 14:26:47,265 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-27 14:26:47,266 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-27 14:33:19,986 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-27 14:33:32,553 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-27 14:33:32,553 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-27 20:50:47,997 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-27 20:50:48,015 ERROR: load_image_as_array error for resources/sample_tomato.jpg: [Errno 2] No such file or directory: 'resources/sample_tomato.jpg'
+2025-09-27 20:57:01,482 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-27 20:57:01,493 ERROR: load_image_as_array error for resources/sample_tomato.jpg: [Errno 2] No such file or directory: 'resources/sample_tomato.jpg'
+2025-09-28 13:31:06,863 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 13:31:06,878 ERROR: load_image_as_array error for resources/sample_tomato.jpg: [Errno 2] No such file or directory: 'resources/sample_tomato.jpg'
+2025-09-28 13:31:56,108 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 13:31:56,118 ERROR: load_image_as_array error for resources/sample_tomato.jpg: [Errno 2] No such file or directory: 'resources/sample_tomato.jpg'
+2025-09-28 13:58:28,970 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:00:51,923 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:00:51,935 ERROR: load_image_as_array error for resources/sample_tomato.jpg: [Errno 2] No such file or directory: 'resources/sample_tomato.jpg'
+2025-09-28 14:02:11,163 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:02:11,174 ERROR: load_image_as_array error for resources/samples: [Errno 13] Permission denied: 'resources/samples'
+2025-09-28 14:18:03,218 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:18:03,234 ERROR: load_image_as_array error for resources/sample_tomato.jpg: [Errno 2] No such file or directory: 'resources/sample_tomato.jpg'
+2025-09-28 14:25:54,475 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:26:01,996 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 14:26:01,996 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 14:27:57,138 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:34:19,287 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:34:19,299 ERROR: load_image_as_array error for resources/sample_tomato.jpg: [Errno 2] No such file or directory: 'resources/sample_tomato.jpg'
+2025-09-28 14:35:38,755 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:35:45,668 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 14:35:45,668 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 14:37:37,460 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:37:37,471 ERROR: load_image_as_array error for resources/sample_tomato.jpg: [Errno 2] No such file or directory: 'resources/sample_tomato.jpg'
+2025-09-28 14:41:23,763 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:41:31,381 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 14:41:31,381 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 14:42:50,250 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:42:56,895 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 14:42:56,895 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 14:48:22,102 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:48:25,428 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 14:48:25,428 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 14:50:31,826 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 14:50:34,216 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 14:50:34,217 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 15:02:16,959 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 15:02:20,219 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 15:02:20,220 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 15:11:31,183 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 15:11:33,497 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 15:11:33,498 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 15:18:59,821 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 15:19:03,050 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 15:19:03,051 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 18:12:08,159 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 18:12:11,355 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 18:12:11,355 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-28 20:45:25,464 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-28 20:45:28,449 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-28 20:45:28,449 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-29 08:27:30,844 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-29 08:27:35,186 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-29 08:27:35,187 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-29 08:32:06,702 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-29 08:32:09,023 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-29 08:32:09,024 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-29 08:44:08,859 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-29 08:44:11,291 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-29 08:44:11,291 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-29 08:46:40,798 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-29 08:46:43,352 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-29 08:46:43,352 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-29 08:49:16,197 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-29 08:49:18,633 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-29 08:49:18,633 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-29 08:52:01,780 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-29 08:52:04,235 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-29 08:52:04,236 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-29 08:52:54,735 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-29 08:52:57,203 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-29 08:52:57,203 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-09-29 09:58:50,328 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-09-29 09:58:53,409 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-09-29 09:58:53,409 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-10-06 08:56:50,137 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-06 08:56:52,890 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-06 08:56:52,890 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-10-22 18:43:52,765 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-22 18:43:56,314 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-22 18:43:56,315 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-10-22 18:49:16,581 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-22 18:49:19,004 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-22 18:49:19,005 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-10-22 18:51:03,908 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-22 18:51:07,060 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-22 18:51:07,060 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-10-22 18:52:11,622 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-22 18:52:13,855 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-22 18:52:13,856 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-10-22 18:54:26,765 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-22 18:54:28,923 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-22 18:54:28,924 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-10-22 19:07:37,250 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-22 19:07:39,576 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-22 19:07:39,577 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-10-22 19:08:34,158 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-22 19:08:37,345 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-22 19:08:37,346 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'
+2025-10-22 19:10:08,457 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-22 19:10:08,467 ERROR: load_image_as_array error for C:\Users\Sudaroli K\Desktop\cropcli\resources\sample_tomato.jpg: [Errno 2] No such file or directory: 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\resources\\sample_tomato.jpg'
+2025-10-23 13:20:45,197 WARNING: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+2025-10-23 13:20:47,949 INFO: Imported existing <module 'comtypes.gen' from 'C:\\Users\\Sudaroli K\\Desktop\\cropcli\\venv\\Lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-10-23 13:20:47,950 INFO: Using writeable comtypes cache directory: 'C:\Users\Sudaroli K\Desktop\cropcli\venv\Lib\site-packages\comtypes\gen'

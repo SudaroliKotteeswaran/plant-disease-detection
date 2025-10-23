@@ -1,0 +1,121 @@
+{
+  "Tomato_Bacterial_spot": {
+    "crop": "Tomato",
+    "disease": "Bacterial Spot",
+    "causative_agent": "Bacterium (Xanthomonas campestris pv. vesicatoria)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "Small, dark, water-soaked spots on leaves and fruits caused by bacteria.",
+    "sample_image": "resources/samples/Tomato__Bacterial_spot/sample.jpg",
+    "organic": ["Spray copper-based bactericide", "Use neem oil spray", "Remove infected plant parts"],
+    "chemical": ["Apply Streptomycin or Copper oxychloride (as per local guidelines)"],
+    "prevention": ["Use certified disease-free seeds", "Rotate crops with non-solanaceous crops", "Avoid overhead irrigation"]
+  },
+
+  "Tomato_Early_blight": {
+    "crop": "Tomato",
+    "disease": "Early Blight",
+    "causative_agent": "Fungus (Alternaria solani)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "Fungal disease causing concentric rings on older leaves.",
+    "sample_image": "resources/samples/Tomato__Early_blight/sample.jpg",
+    "organic": ["Neem oil spray", "Compost tea foliar spray", "Maintain field sanitation"],
+    "chemical": ["Chlorothalonil or Mancozeb (as per agricultural guidelines)"],
+    "prevention": ["Crop rotation", "Remove crop debris", "Provide balanced fertilization"]
+  },
+
+  "Tomato_Healthy": {
+    "crop": "Tomato",
+    "disease": "Healthy",
+    "causative_agent": "None (Healthy leaf detected)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "No visible disease symptoms detected.",
+    "sample_image": "resources/samples/Tomato__healthy/sample.jpg",
+    "organic": ["Maintain proper irrigation", "Use organic compost", "Mulching to preserve soil moisture"],
+    "chemical": ["No chemical required"],
+    "prevention": ["Regular monitoring", "Balanced nutrients", "Use resistant seed varieties"]
+  },
+
+  "Tomato_Late_blight": {
+    "crop": "Tomato",
+    "disease": "Late Blight",
+    "causative_agent": "Oomycete (Phytophthora infestans)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "Fungal disease causing water-soaked lesions and rapid foliar damage.",
+    "sample_image": "resources/samples/Tomato__Late_blight/sample.jpg",
+    "organic": ["Remove and destroy infected leaves", "Use copper-based organic fungicides", "Improve field drainage"],
+    "chemical": ["Apply Mancozeb, Metalaxyl or Cymoxanil (follow local recommendations)"],
+    "prevention": ["Avoid overhead irrigation", "Use resistant varieties", "Maintain wider spacing for airflow"]
+  },
+
+  "Tomato_Leaf_Mold": {
+    "crop": "Tomato",
+    "disease": "Leaf Mold",
+    "causative_agent": "Fungus (Cladosporium fulvum)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "Fungal infection causing yellow spots on the upper side of leaves with olive-green mold below.",
+    "sample_image": "resources/samples/Tomato__Leaf_Mold/sample.jpg",
+    "organic": ["Apply baking soda spray", "Use neem-based sprays", "Increase air circulation"],
+    "chemical": ["Spray Chlorothalonil or Copper fungicide (local recommendations)"],
+    "prevention": ["Avoid overcrowding plants", "Provide proper ventilation in greenhouses", "Water at soil level"]
+  },
+
+  "Tomato_Septoria_leaf_spot": {
+    "crop": "Tomato",
+    "disease": "Septoria Leaf Spot",
+    "causative_agent": "Fungus (Septoria lycopersici)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "Small, circular spots with dark borders caused by Septoria fungus.",
+    "sample_image": "resources/samples/Tomato__Septoria_leaf_spot/sample.jpg",
+    "organic": ["Neem oil spray", "Garlic extract spray", "Remove infected leaves promptly"],
+    "chemical": ["Fungicides like Chlorothalonil, Mancozeb"],
+    "prevention": ["Crop rotation", "Avoid overhead watering", "Use resistant tomato varieties"]
+  },
+
+  "Tomato_Spider_mites": {
+    "crop": "Tomato",
+    "disease": "Spider Mites (Two-spotted)",
+    "causative_agent": "Mite (Tetranychus urticae)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "Tiny arachnids causing yellow stippling and webbing on leaves.",
+    "sample_image": "resources/samples/Tomato___Spider_mites/sample.jpg",
+    "organic": ["Spray neem oil or insecticidal soap", "Encourage natural predators like ladybugs"],
+    "chemical": ["Miticides such as Abamectin (as per local guidelines)"],
+    "prevention": ["Avoid excessive nitrogen fertilizer", "Maintain good field hygiene", "Introduce predator mites if possible"]
+  },
+
+  "Tomato_Target_Spot": {
+    "crop": "Tomato",
+    "disease": "Target Spot",
+    "causative_agent": "Fungus (Corynespora cassiicola)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "Fungal infection causing concentric brown spots on leaves.",
+    "sample_image": "resources/samples/Tomato__Target_spot/sample.jpg",
+    "organic": ["Neem oil spray", "Compost tea spray", "Remove infected debris"],
+    "chemical": ["Apply Chlorothalonil, Azoxystrobin (as per guidelines)"],
+    "prevention": ["Rotate crops", "Maintain field sanitation", "Ensure adequate plant spacing"]
+  },
+
+  "Tomato_Tomato_mosaic_virus": {
+    "crop": "Tomato",
+    "disease": "Tomato Mosaic Virus",
+    "causative_agent": "Virus (Tobamovirus)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "Viral disease causing mottling, mosaic patterns, and stunted growth.",
+    "sample_image": "resources/samples/Tomato__Tomato_mosaic_virus/sample.jpg",
+    "organic": ["Remove and destroy infected plants", "Use resistant varieties", "Disinfect tools regularly"],
+    "chemical": ["No direct chemical treatment (symptomatic management only)"],
+    "prevention": ["Avoid tobacco use in fields", "Use virus-free seeds", "Control insect vectors like aphids"]
+  },
+
+  "Tomato_Tomato_Yellow_Leaf_Curl_Virus": {
+    "crop": "Tomato",
+    "disease": "Tomato Yellow Leaf Curl Virus (TYLCV)",
+    "causative_agent": "Virus (Begomovirus)",
+    "botanical_name": "Solanum lycopersicum",
+    "description": "Viral disease transmitted by whiteflies, causing upward leaf curling and stunted growth.",
+    "sample_image": "resources/samples/Tomato__Tomato_Yellow_Leaf_curl_virus/sample.jpg",
+    "organic": ["Use yellow sticky traps for whiteflies", "Neem oil spray to repel vectors"],
+    "chemical": ["Apply Imidacloprid or Thiamethoxam (as per guidelines for whitefly control)"],
+    "prevention": ["Use resistant hybrids", "Control whitefly population early", "Practice crop rotation"]
+  }
+}
