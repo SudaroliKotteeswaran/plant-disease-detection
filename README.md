@@ -50,24 +50,5 @@ If missing, I download the model(s) and put them into `models/` (use Drive/Huggi
 python infer.py --help
 ```
 
-8. I run inference with the correct model and image (example):
-
-```
-python infer.py --image resources/samples/sample.jpg --model models/best_model.pth --output output.jpg
-```
-
-(Replace `--model` and `--image` with the exact filenames shown by `--help`.)
-
-9. I open `output.jpg` to see the result.
-
-10. If I change code later, I commit and push the branch:
-
-```
-git add .
-git commit -m "my changes"
-git push origin cropcli
-```
-
-— end —
-
-If any step shows an error, I copy the full error message and run only the failing command again so I can fix it.
+8. I run inference
+   //python infer.py
